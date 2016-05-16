@@ -1,0 +1,30 @@
+#header {
+    background-color: black;
+    color: white;
+    
+    text-align: center;
+    
+}
+#header1 a:visited {
+color: white;}
+#header1 a {text-decoration:none;}
+#header1 {
+    background-color: black;
+    color: white;
+    fontsize: 20px;  
+       
+}
+#section {
+    
+    width:800px;
+    float:left;
+    padding:10px;	
+fontsize:18px; 	 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}

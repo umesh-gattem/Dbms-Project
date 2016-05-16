@@ -1,0 +1,35 @@
+<web-app version="2.4">
+	<welcome-file-list>
+		<welcome-file>html/worldcup.htm</welcome-file> 
+	</welcome-file-list>
+	
+  <servlet>
+    <servlet-name>TeamsServlet</servlet-name>
+    <servlet-class>com.umesh.example.servlet.TeamsServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>BattingAvgServlet</servlet-name>
+    <servlet-class>com.umesh.example.servlet.BattingAvgServlet</servlet-class>
+  </servlet>
+  
+   <servlet-mapping>
+    <servlet-name>BattingAvgServlet</servlet-name>
+    <url-pattern>/batting</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>BowlingAvgServlet</servlet-name>
+    <servlet-class>com.umesh.example.servlet.BowlingAvgServlet</servlet-class>
+  </servlet>
+  
+   <servlet-mapping>
+    <servlet-name>BowlingAvgServlet</servlet-name>
+    <url-pattern>/bowling</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>TeamsServlet</servlet-name>
+    <url-pattern>/teams</url-pattern>
+  </servlet-mapping>
+</web-app> 

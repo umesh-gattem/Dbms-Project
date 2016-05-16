@@ -1,0 +1,9 @@
+.team a {
+    text-decoration: none;}
+.team{
+    text-decoration:none;
+    float:left;
+    width:48%;
+    height:630px;
+    margin:0 auto;
+}
